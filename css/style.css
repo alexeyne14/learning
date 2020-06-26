@@ -1,0 +1,20 @@
+body {
+  background-color: #41b5b5;
+  border-color: #FFFF00;
+}
+h1 {
+    background-color: #2fdca4;
+    border-style: solid;
+    border-color: #5871cd;
+}
+img {
+	border-style: solid;
+    border-color: #5871cd;
+
+}
+.content {
+    width: 900px;
+    margin: 0 auto;
+	background-color: #58aaff;
+    padding: 10px;
+}
