@@ -1,0 +1,11 @@
+.layer1 {
+    background: #8b0086; /* Цвет фона */
+    color: white; /* Цвет текста */
+    padding: 10px; /* Поля вокруг текста */
+    margin-bottom: -7px; /* Отступ снизу */
+   }
+   .layer2 {
+    margin-left: 40px; /* Отступ слева */
+    background: #e9c1e4; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+   }

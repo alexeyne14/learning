@@ -1,0 +1,14 @@
+.header {
+    min-width: 1300px;
+    border-bottom: 1px solid #b5b7ba;
+    background-color: #dfdfdf;
+    margin: 0 auto;
+    height: 50px;
+    text-align: center;
+    padding-top: 18px;
+    font-size: 18px;
+}
+body {
+    background-color: #beff7777;
+    font-family: 'Roboto', sans-serif;
+}
