@@ -1,0 +1,62 @@
+body {
+    background-color: aqua;
+}
+
+#menu {
+    background-color: burlywood;
+    width: 100%;
+    height: 40px;
+    margin: 0px;
+}
+
+#menu ul li {
+    display: inline-block;
+    padding-left: 10%;
+    margin-top: 10px;
+}
+#menu a {
+    float: left;
+    text-decoration: none;
+    display: block;
+}
+#menu a.hover{
+    color: crimson;
+}
+
+#content {
+    background-color: darkgray;
+}
+#content div {
+    padding-left: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: darkgreen;
+}
+#content .hello {
+    background-color: khaki;
+    height: 700px;
+}
+#content .forbes span {
+    margin-left: 10px;
+}
+#content .forbes {
+    height: 700px;
+    padding-left: 40%;
+}
+#content .films {
+    height: 700px;
+    padding-left: 40%;
+    background-color: cadetblue;
+}
+#content .planet {
+    height: 700px;
+    padding-left: 40%;
+    background-color: pink;
+}
+#content .table {
+    padding-left: 40%;
+}
+#content .table th, #content .table td {
+    border: 2px solid grey;
+    border-style: groove;
+}
