@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" />     <!-- для первого слайдера -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" />     <!-- для первого слайдера -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />     <!-- для второго слайдера -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />     <!-- для второго слайдера -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">     <!-- для третьего слайдера -->
+</head>
+<body>
+<div class="tabs">
+    <input type="radio" name="inset" value="" id="tab_1" checked>
+    <label for="tab_1">Slick Slider</label>
+
+    <input type="radio" name="inset" value="" id="tab_2">
+    <label for="tab_2">Owl Carousel 2</label>
+
+    <input type="radio" name="inset" value="" id="tab_3">
+    <label for="tab_3">Swiper</label>
+    
+    <div id="txt_1">
+        <div class="myslider1">
+  <div><img src="https://via.placeholder.com/650" alt=""></div>
+  <div><img src="https://via.placeholder.com/650" alt=""></div>
+  <div><img src="https://via.placeholder.com/650" alt=""></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+  $('.myslider1').slick({
+dots: true,
+  });
+});
+    </script>
+    </div>
+    <div id="txt_2">
+        <div class="owl-carousel owl-theme">
+    <div class="item"><h4><img src="https://via.placeholder.com/650" alt=""></h4></div>
+    <div class="item"><h4><img src="https://via.placeholder.com/650" alt=""></h4></div>
+    <div class="item"><h4><img src="https://via.placeholder.com/650" alt=""></h4></div>
+    <div class="item"><h4><img src="https://via.placeholder.com/650" alt=""></h4></div>
+    <div class="item"><h4><img src="https://via.placeholder.com/650" alt=""></h4></div>
+    <div class="item"><h4><img src="https://via.placeholder.com/650" alt=""></h4></div>
+    <div class="item"><h4><img src="https://via.placeholder.com/650" alt=""></h4></div>
+    <div class="item"><h4><img src="https://via.placeholder.com/650" alt=""></h4></div>
+    <div class="item"><h4><img src="https://via.placeholder.com/650" alt=""></h4></div>
+    <div class="item"><h4><img src="https://via.placeholder.com/650" alt=""></h4></div>
+    <div class="item"><h4><img src="https://via.placeholder.com/650" alt=""></h4></div>
+    <div class="item"><h4><img src="https://via.placeholder.com/650" alt=""></h4></div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script>
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+</script>
+    </div>
+    <div id="txt_3">
+        <div class="swiper-container">
+           <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="https://via.placeholder.com/650" alt=""></div>
+      <div class="swiper-slide"><img src="https://via.placeholder.com/650" alt=""></div>
+      <div class="swiper-slide"><img src="https://via.placeholder.com/650" alt=""></div>
+      <div class="swiper-slide"><img src="https://via.placeholder.com/650" alt=""></div>
+      <div class="swiper-slide"><img src="https://via.placeholder.com/650" alt=""></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      spaceBetween: 30,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+    });
+  </script>
+    </div>
+</div>
+</body>
+</html>
+
