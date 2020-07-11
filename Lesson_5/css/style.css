@@ -1,0 +1,75 @@
+.service-img1 {
+	background-image: url('../img/img_1.jpg');
+	height: 500px;
+	margin-left: 100px;
+	background-position: 50%;
+}
+
+.services h2 {
+	font-family: 'Oswald', sans-serif;
+}
+p {
+	font-family: 'Rubik', sans-serif;
+	color: grey;	
+}
+li {
+	font-family: 'Rubik', sans-serif;
+	color: grey;
+	list-style-type: none;
+}
+li:before {
+    content: "✓ ";
+    color: orange;
+}
+.service-img2{
+	background-image: url('../img/img_2.jpg');
+	height: 500px;
+	margin-right: 100px;
+	background-position: 50%;
+	padding-left: 10px;
+	margin-left: -30px;
+}
+.service-desc2 {
+	padding-top: 40px;
+    padding-left: 140px;
+}
+.service-desc1 {
+	padding-top: 40px;
+    padding-left: 140px;
+}
+.service-desc1 p {
+	margin-right: 184px;
+}
+.service-desc2 p {
+	margin-right: 184px;
+}
+li {
+	margin-bottom: 15px;
+}
+.craft {
+	padding-top: 215px;
+	margin-left: 40px;
+}
+.craft p {
+	margin-left: 50px;
+    margin-right: 110px;
+}
+.craft h5 {
+	margin-left: 47px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.top1 {
+	margin-top: 100px;
+}
+.top2 {
+	margin-bottom: 130px;
+	margin-left: -25px;
+}
+.bottom1 {
+	margin-top: 9px;
+}
+.bottom2 {
+	margin-bottom: 100px;
+	margin-left: -25px;
+}
